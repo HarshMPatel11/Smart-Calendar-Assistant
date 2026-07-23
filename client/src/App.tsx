@@ -3,6 +3,7 @@ import { Route, Switch, Router as WouterRouter } from 'wouter';
 import { Toaster } from '@/components/ui/toaster';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { Shell } from '@/components/layout/shell';
+import { setBaseUrl } from '@/api';
 
 // Pages
 import Dashboard from '@/pages/dashboard';
@@ -12,6 +13,10 @@ import AppointmentDetail from '@/pages/appointment-detail';
 import BookAppointment from '@/pages/book';
 import NotFound from '@/pages/not-found';
 import { useRealtimeCalendar } from '@/hooks/use-realtime-calendar';
+
+// Initialize API base URL
+const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+setBaseUrl(apiUrl);
 
 const queryClient = new QueryClient({
   defaultOptions: {
