@@ -9,7 +9,7 @@ async function startServer(): Promise<void> {
   await connectDatabase();
   const server = createServer(app);
   initializeRealtime(server);
-  server.listen(env.port, () => {
+  server.listen(env.port, "0.0.0.0", () => {
     logger.info({ port: env.port }, `API available at http://localhost:${env.port}/api`);
   });
 
