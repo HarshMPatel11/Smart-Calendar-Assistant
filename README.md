@@ -38,11 +38,7 @@ server/   Express routes, controllers, Mongoose models, and database setup
 
 
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4a9432a-1795-44fe-9a55-99ad081f46bd" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e3668667-5f46-4e3c-8914-b7d4c574b093" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/75a24ad9-60cf-439a-866c-0b93e7c3b561" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9415c2cc-b119-4048-a0d7-4b902eceb74c" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e228d2c5-80c0-4f5f-94cc-db48d81292c3" />
+<img width="1892" height="953" alt="image" src="https://github.com/user-attachments/assets/5640ea18-c347-43de-b042-ceae19693d76" />
 
 
 
